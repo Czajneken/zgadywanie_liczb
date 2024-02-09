@@ -20,7 +20,7 @@ def get_number():
 
 def game():
     """The main function of the game."""
-    random_number = random.randint(1, 2)
+    random_number = random.randint(1, 100)
     user_number = get_number()
 
     while user_number != random_number:
